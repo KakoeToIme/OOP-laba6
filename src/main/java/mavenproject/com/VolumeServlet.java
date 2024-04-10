@@ -109,6 +109,17 @@ public class VolumeServlet extends HttpServlet {
                 break;
         }
 
-        out.println("<p>Result: " + result + "</p>");
+        out.println("<!DOCTYPE html>");
+        out.println("<html>");
+        out.println("<head>");
+        out.println("<title>Результат</title>");
+        out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">"); // Подключение CSS-файла
+        out.println("</head>");
+        out.println("<body>");
+        out.println("<div class=\"result\">");
+        out.println("<p>Результат: " + result + "</p>");
+        out.println("</div>");
+        out.println("</body>");
+        out.println("</html>");
     }
 }

@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Калькулятор объемов тела</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script>
         function showFields() {
             var selectedShape = document.getElementById("function").value;
